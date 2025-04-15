@@ -13,35 +13,76 @@
 body {
     background-color: #f2ebe3;
 }
-.btn{
+
+.btn {
     background-color: green;
-    border-radius: 8px;
+    border-radius: 9px;
     font-family: "Bebas Neue", sans-serif;
-    line-height: 4px;
-    text-align: center;
+    line-height: 20px;
     display: block;
     font-size: 20px;
-    color : white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-right: 270px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+
+    &:hover {
+        background-color: greenyellow;
+        transition-duration: 300ms;
+    }
 }
 
 #perfume {
     font-family: 'Vesper Libre', sans-serif;
     background-color: white;
-    margin: 450px;
+
     display: flex;
-    .texto{
-        margin-top: 50px;   
-       }
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-bottom: 220px;
+
+    .texto {
+        margin-top: 25px;
+        margin-left: 20px;
+
+
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 20px;
+
+    }
 
     img {
-        width: 450px;
-        height: 540px;
+        width: 300px;
+        height: 490px;
     }
-    box-icon{
+
+    box-icon {
         fill: white;
     }
-    
+
+    h3 {
+        display: flex;
+        text-align: center;
+        gap: 200px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: green;
+        margin-left: 20px;
+    }
+
+    a {
+        margin-top: 20px;
+
+    }
+
+    p {}
+
+    h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 50px;
+    }
 }
