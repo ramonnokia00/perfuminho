@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vesper+Libre:wght@400;500;700;900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 0;
+    outline: 0;
+
+}
+
+body {
+    background-color: #f2ebe3;
+}
+.btn{
+    background-color: green;
+    border-radius: 8px;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 4px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color : white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 270px;
+}
+
+#perfume {
+    font-family: 'Vesper Libre', sans-serif;
+    background-color: white;
+    margin: 450px;
+    display: flex;
+    .texto{
+        margin-top: 50px;   
+       }
+
+    img {
+        width: 450px;
+        height: 540px;
+    }
+    box-icon{
+        fill: white;
+    }
+    
+}
